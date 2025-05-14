@@ -1,6 +1,7 @@
 # Markdown to HTML Converter Tool
 
-This repository contains a simple yet practical Python-based tool for converting Markdown files (.md) into fully styled HTML documents. The tool helps streamline the process of transforming Markdown content into web-friendly pages, making it useful for technical writers, developers, and documentation maintainers.
+This repository contains a simple yet practical Python-based tool for converting Markdown files `(.md)` into fully styled HTML documents. The tool helps streamline the process of transforming Markdown content into web-friendly pages, making it useful for technical writers, developers, and documentation maintainers.
+
 ---
 
 ## 🗂️ Table of Contents

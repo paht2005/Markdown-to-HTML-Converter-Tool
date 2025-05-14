@@ -13,7 +13,6 @@ This repository contains a simple yet practical Python-based tool for converting
 - [📄 License](#-license)
 - [🤝 Contributing](#-contributing)
 - [🧠 Acknowledgements](#-acknowledgements)
-- [⭐ Future Enhancements](#-future-enhancements)
 
 ---
 
@@ -48,21 +47,28 @@ This repository contains a simple yet practical Python-based tool for converting
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/paht2005/some_Object-Oriented_miniProjects.git
-   cd some_Object-Oriented_miniProjects
+   git clone https://github.com/paht2005/Markdown-to-HTML-Converter-Tool.git
+   cd Markdown-to-HTML-Converter-Tool
    ```
-2. **Run the respective project scripts:**
-- For example, to run the Mini ATM Machine App:
+2. **Create a virtual environment (optional but recommended):**
    ```bash
-   cd miniATM_Machine_App
-   python miniATM_machine.py
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+3. **Install required packages:**
+   ```bash
+   pip install -r requirements.txt
    ```
 ---
 ## 🎯 Usage
-- Choose any project from the repository to run.
-- Follow the interactive prompts in each project to simulate the functionalities of the system.
-- Each project contains basic functionality with additional enhancements possible based on the project.
-
+1. **Run the converter script:**
+   ```bash
+   python Markdown-to-HTML_converter.py
+   ```
+2. **Follow the prompts:**
+- Enter the path to your Markdown file (e.g., `sample-markdown.md`)
+- Enter the desired output path for the HTML file (e.g., `output.html`)
+3. **Open the generated HTML file in your browser to view the result.**
 ---
 ## 📄 License
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
@@ -71,18 +77,12 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 ## 🤝 Contributing
 I welcome contributions to improve this project!
 Feel free to:
-- Submit pull requests
-- Report bugs
-- Suggest new features
+- Submit pull requests 🛠️
+- Report issues 🐞
+- Suggest enhancements 💡
 Contact for work: **Nguyễn Công Phát** – congphatnguyen.work@gmail.com
 ---
 ## 🧠 Acknowledgements
-- **Python:** For providing a simple yet powerful language for OOP projects.
-- **GitHub:** For hosting this open-source project.
-- **Streamlit/Tkinter:** Developing a user interface (UI) using Tkinter or Streamlit frameworks.
----
-## ⭐ Future Enhancements
-- **Modularization:** Break down each project into more granular modules for easier maintenance and enhancement.
-- **Advanced Features:** Add advanced features like database integration or real-time updates for certain projects (e.g., the Inventory Management System).
-- **Web-based UIs:** Transform the projects into web-based applications with Flask or Django.
-- **Cross-platform Compatibility:** Make the applications compatible across different operating systems and devices.
+- **Python & markdown2:** For enabling a seamless Markdown-to-HTML workflow..
+- **GitHub:** For code hosting and version control.
+

@@ -1,3 +1,7 @@
+# Nguyen Cong Phat 
+# Github: https://github.com/paht2005
+
+
 # Sample Markdown File
 
 Welcome to this **Markdown file**. Below, you’ll find examples of how to use Markdown to format your content.
